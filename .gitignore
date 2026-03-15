@@ -1,0 +1,31 @@
+# Node.js .gitignore
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Directory for instruments reports
+coverage
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build output
+/dist
+/build
+
+# Optional npm cache directory
+.npm
+
+# typescript
+*.tsbuildinfo
+
+# dotenv
+.env
