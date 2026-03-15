@@ -1,0 +1,1 @@
+{"name": "campuscore-api","version": "1.0.0","description": "API for CampusCore project","main": "index.js","scripts": {"test": "echo 'Error: no test specified' && exit 1"},"author": "naik1313-naik","license": "ISC"}
