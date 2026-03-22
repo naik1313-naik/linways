@@ -29,3 +29,6 @@ jspm_packages/
 
 # dotenv
 .env
+
+# Astro generated files
+.astro/

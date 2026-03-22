@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  @apply bg-base text-white antialiased scroll-smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  background-image: radial-gradient(circle at 15% 20%, rgba(0, 212, 255, 0.16), transparent 35%),
+    radial-gradient(circle at 85% 5%, rgba(126, 95, 255, 0.24), transparent 35%),
+    linear-gradient(180deg, #050816 0%, #090f2d 100%);
+}
+
+.glass {
+  @apply border border-white/10 bg-white/5 backdrop-blur-xl;
+}
+
+.section-title {
+  @apply text-3xl font-bold md:text-5xl;
+}
