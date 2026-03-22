@@ -1,1 +1,31 @@
-{"name": "campuscore-api","version": "1.0.0","description": "API for CampusCore project","main": "index.js","scripts": {"test": "echo 'Error: no test specified' && exit 1"},"author": "naik1313-naik","license": "ISC"}
+{
+  "name": "linways-portfolio",
+  "version": "1.0.0",
+  "description": "Modern 3D portfolio built with Astro, React, Three.js, Tailwind, and GSAP",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "author": "naik1313-naik",
+  "license": "ISC",
+  "dependencies": {
+    "@astrojs/react": "^5.0.1",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
+    "@tailwindcss/vite": "^4.2.2",
+    "astro": "^6.0.8",
+    "gsap": "^3.14.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.2.2",
+    "three": "^0.183.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "typescript": "^5.9.2"
+  }
+}

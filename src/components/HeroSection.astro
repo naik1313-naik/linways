@@ -1,0 +1,21 @@
+---
+import HeroScene from './HeroScene';
+---
+
+<section id="hero" class="relative flex min-h-screen items-center overflow-hidden pt-20">
+  <div class="absolute inset-0">
+    <HeroScene client:load />
+  </div>
+
+  <div class="section-container relative z-10">
+    <div class="hero-intro glass-panel max-w-2xl rounded-3xl p-8 shadow-xl shadow-cyan-500/10 md:p-10">
+      <p class="mb-3 text-sm uppercase tracking-[0.25em] text-cyan-200">Full-Stack Developer</p>
+      <h1 class="mb-4 text-4xl font-bold leading-tight text-white md:text-6xl">
+        Building immersive products with modern web technologies.
+      </h1>
+      <p class="text-base text-slate-300 md:text-lg">
+        Crafting performant experiences with Astro, React, Three.js, and smooth motion design.
+      </p>
+    </div>
+  </div>
+</section>

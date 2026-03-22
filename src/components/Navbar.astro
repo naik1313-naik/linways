@@ -1,0 +1,20 @@
+---
+const navLinks = [
+  { href: '#hero', label: 'Home' },
+  { href: '#about', label: 'About' },
+  { href: '#projects', label: 'Projects' },
+  { href: '#kudos', label: 'Kudos' },
+  { href: '#contact', label: 'Contact' },
+];
+---
+
+<nav class="glass-panel fixed inset-x-0 top-4 z-50 mx-auto flex w-[calc(100%-2rem)] max-w-5xl items-center justify-between rounded-full px-6 py-3 shadow-2xl shadow-cyan-500/10">
+  <a href="#hero" class="text-sm font-semibold tracking-[0.2em] text-cyan-200">LINWAYS</a>
+  <ul class="hidden gap-6 text-sm text-slate-200 md:flex">
+    {navLinks.map((link) => (
+      <li>
+        <a class="transition hover:text-cyan-300" href={link.href}>{link.label}</a>
+      </li>
+    ))}
+  </ul>
+</nav>
