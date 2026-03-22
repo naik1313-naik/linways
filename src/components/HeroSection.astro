@@ -4,7 +4,7 @@ import HeroScene from './HeroScene';
 
 <section id="hero" class="relative flex min-h-screen items-center overflow-hidden bg-hero-gradient">
   <div class="absolute inset-0 opacity-95">
-    <HeroScene client:load />
+    <HeroScene client:only="react" />
   </div>
   <div class="pointer-events-none relative z-10 mx-auto w-[min(92%,1100px)] py-24">
     <div class="glass max-w-2xl rounded-3xl p-8 md:p-12">

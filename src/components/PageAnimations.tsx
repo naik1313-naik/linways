@@ -29,14 +29,17 @@ export default function PageAnimations() {
       );
     });
 
-    gsap.to('#hero canvas', {
-      yPercent: 20,
-      ease: 'none',
-      scrollTrigger: {
-        trigger: '#hero',
-        scrub: true,
-      },
-    });
+    const heroCanvas = document.querySelector('#hero canvas');
+    if (heroCanvas) {
+      gsap.to(heroCanvas, {
+        yPercent: 20,
+        ease: 'none',
+        scrollTrigger: {
+          trigger: '#hero',
+          scrub: true,
+        },
+      });
+    }
 
     return () => {
       intro.kill();
