@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/Navbar.astro';
+import HeroSection from '../components/HeroSection.astro';
+import AboutSection from '../components/AboutSection.astro';
+import ProjectsSection from '../components/ProjectsSection.astro';
+import KudosSection from '../components/KudosSection';
+import ContactSection from '../components/ContactSection.astro';
+import PageAnimations from '../components/PageAnimations';
+---
+
+<BaseLayout title="Linways | 3D Portfolio">
+  <Navbar />
+  <main>
+    <HeroSection />
+    <AboutSection />
+    <ProjectsSection />
+    <KudosSection client:load />
+    <ContactSection />
+  </main>
+  <PageAnimations client:load />
+</BaseLayout>
